@@ -1,0 +1,183 @@
+body {
+    background-color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1a2f44;
+    border-color: #fff;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.btn-primary:hover {
+    color: #1a2f44;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    color: #1a2f44;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: #fff
+}
+
+.btn-buknow {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+    font-size: 17px;
+    /* width: 20vh;
+    height: 6vh; */
+    /* position: relative; */
+    
+    
+    
+}
+
+.btn-buknow:hover {
+    color: #1a2f44;
+    background-color: #fff;
+    border-color: #1a2f44
+}
+
+.btn-check:focus+.btn-buknow,
+.btn-buknow:focus {
+    color: #fff;
+    background-color: #1a2f44;
+    border-color: #1a2f44;
+    box-shadow: #fff
+    
+}
+
+
+.gambar-login{
+    width: 23%;
+    height: 23%;
+    margin-top: 109px;
+    margin-left: 382px;
+    box-sizing: border-box;
+    border-radius: 80px 0px 0px 80px;
+}
+.login-box{
+    width: 320px;
+    height: 418px;
+    background: #fff;
+    color: #000;
+    top: 50%;
+    right: 14%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px;
+    transform: translate(-50%, -50%);
+    border-radius: 0px 80px 80px 0px;
+}
+
+.login-box p{
+    margin-bottom: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+
+}
+
+.login-box button {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    outline: 0;
+    background: #1a2f44;
+    width: 100%;
+    border: 0;
+  border-radius:30px;
+    margin-top: 50px;
+    padding: 15px;
+    color: #FFFFFF;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    transition: all 0.2s;
+  
+  
+  }
+  .login-box button:hover,.form button:focus {
+    background: #1b1717;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+  }
+  .login-box button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar {
+    background-color: #1a2f44;
+  }
+
+  .navbar-brand {
+      font-family: forum;
+  }
+
+  .nav-item {
+      font-family: Arial, Helvetica, sans-serif ;
+      
+  }
+
+  .carousel-inner {
+      width: 50%;
+      height: 50%;
+  }
+
+  .colorprimary{
+    background-color: #1a2f44;
+    border-color: #1a2f44;
+  }
+
+.font-primary {
+    font-family: sitara;
+}
+
+.cardrooms {
+    background-color: #1a2f44;
+}
+
+.rounded-20 {
+    border-radius: 20px;
+    border-color: #fff;
+}
+
+.btn-selengkapnya {
+    border-color: #FFFFFF;
+}
+
+.card-rooms{
+    background-color: #1a2f44;
+}
+
+.card-image{
+    background-color: #fff;
+    border-radius: 40px;
+    border-color: #1a2f44;
+}
+.gambar-rooms{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 40px 0px 0px 40px;
+    
+}
