@@ -12,5 +12,9 @@
 <body>
     @include('admin.navbar_admin')
     @yield('dashboard')
+    @yield('rooms_admin')
+    @yield('facility_admin')
+    @yield('detailrooms')
+
 </body>
 </html>
