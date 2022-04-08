@@ -30,7 +30,19 @@ Route::get('/buknow', function () {
 });
 
 Route::get('/admin', function () {
-    return view('layouts.main_admin');    
+    return view('admin.dashboard_admin');    
+});
+
+Route::get('/rooms_admin', function () {
+    return view('admin.rooms_admin');    
+});
+
+Route::get('/detailrooms', function () {
+    return view('admin.detailrooms');    
+});
+
+Route::get('/facility_admin', function () {
+    return view('admin.facility_admin');    
 });
 
 

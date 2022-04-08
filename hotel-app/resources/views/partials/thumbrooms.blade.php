@@ -1,7 +1,10 @@
 <link rel="stylesheet" href="{{asset('asset/css.css')}}">
+<div class="card-body card-rooms card-3" style=" margin-top: 150px; max-width: 400px">
+    <h2 class="text-center text-white" style="">Rooms</h2>
+</div>    
 <div class="container " id="rooms">
-    <div class="d-inline-block" style="margin-bottom: 120px; margin-top: 150px">
-        <h1 class="text-center " style="">Rooms</h1>
+    <div class="d-inline-block" style="margin-bottom: 5px;">
+        
         <div class="card cardrooms rounded-20 shadow mt-3">
             <div class="card-body">
                 <img src="{{asset('image/rooms1.jpg')}}" class="img-fluid ps-3 float-end col-lg-4 rounded-20 mb-5"  alt="">

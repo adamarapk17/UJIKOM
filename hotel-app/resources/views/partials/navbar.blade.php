@@ -14,6 +14,9 @@
             <a class="nav-link active text-white" href="/#rooms">Rooms</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link active text-white" href="/#facility">Facility</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link active text-white" href="/#about">About Us</a>
           </li>
           <li class="nav-item2">

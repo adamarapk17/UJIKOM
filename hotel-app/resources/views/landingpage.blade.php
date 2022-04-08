@@ -33,4 +33,5 @@
 </div>
 @include('partials.about')
 @include('partials.thumbrooms')
+@include('facility')
 @endsection

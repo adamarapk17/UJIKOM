@@ -11,5 +11,6 @@
 </head>
 <body>
     @include('admin.navbar_admin')
+    @yield('dashboard')
 </body>
 </html>
