@@ -4,10 +4,58 @@ body {
 
 .rounded-20{
     border-radius: 20px 20px 0px 0px;
+    border-color: black;
+}
+
+.border-dark{
+    border-color: black;
 }
 
 .card-1{
-    margin-top: 100px;
+    margin-top: 30px;
     border-radius: 0px 0px 20px 20px;
+    border-color: #fff;
+    background-color: #1a2f44;
     
+}
+
+.card-2{
+    margin-top: 50px;
+    border-radius: 0px 0px 20px 20px;
+    border-color: #fff;
+    background-color: #1a2f44;
+}
+
+.btn-putih{
+    background-color: #fff;
+    border-color: black;
+}
+
+.text-1{
+    margin-bottom: 0px;
+    border-bottom-color: #fff;
+}
+
+.card-judul { 
+    margin-left:115px; 
+    margin-top: 120px;
+    margin-bottom: 30px;
+    background-color: #1a2f44;
+    border-bottom-color: #fff;
+    border-left-color: #1a2f44;border-right-color: #1a2f44;border-top-color: #1a2f44;
+}
+
+.card-3{
+    background-color: #1a2f44;
+    border-color: #fff;
+}
+
+.nav-1{
+    background-color: #1a2f44;
+    border-radius: 10px;
+    border-color: #fff;
+}
+
+.nav-active{
+    background-color: #fff;
 }

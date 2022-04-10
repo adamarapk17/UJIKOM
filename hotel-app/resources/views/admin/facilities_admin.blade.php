@@ -1,9 +1,8 @@
 @extends('layouts.main_admin')
-@section('rooms_admin')
-
+@section('facilities_admin')
 <div class="card container card-judul" >
     <div>
-        <h1 class="text-white text-1 mb-4">Rooms</h1>
+        <h1 class="text-white text-1 mb-4">Facilities</h1>
     </div>
 </div>    
 <div>
@@ -16,37 +15,31 @@
                         aria-describedby="button-addon2">
                     <button class="btn btn-putih me-1" type="button" id="button-addon2">Search</button>
                 </div>
-                <a href="/addrooms" class="btn btn-putih" id="button-addon2">+ add data</a>
+                <a  href="/addfacilities" class="btn btn-putih" id="button-addon2">+ add data</a>
             </div>
         </div>
     </form>
-    <div class="card card-1 container">
+    <div class="card container card-1 rounded-20 mt-4">
         <div class="card-body">
             <table class="table table-hover table-responsive form-brown text-white">
                 <thead>
                     <tr>
                         <th scope="col">No.</th>
-                        <th scope="col">Rooms Number</th>
-                        <th scope="col">Rooms type</th>
+                        <th scope="col">Facilities Name</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Picture</th>
                         <th scope="col">Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th class="align-middle" scope="row">1</th>
-                        <td class="align-middle">1</td>
-                        <td class="align-middle">Economy</td>
-                        <td>
-                            <a href="" class="btn btn-putih rounded-10">Edit</a>
-                            <a href="" class="btn btn-putih rounded-10">Delete</a>
+                        <td class="align-middle">Swimming Pool</td>
+                        <td class="align-middle">Luxury Swimming Pool</td>
+                        <td class="align-middle">
+                            <img src="image/kolamrenang.jpg" class="img-fluid" style="max-width: 150px" alt="">
                         </td>
-                    </tr>
-
-                    <tr>
-                        <th class="align-middle" scope="row">2</th>
-                        <td class="align-middle">2</td>
-                        <td class="align-middle">Superior</td>
-                        <td>
+                        <td class="align-middle">
                             <a href="" class="btn btn-putih rounded-10">Edit</a>
                             <a href="" class="btn btn-putih rounded-10">Delete</a>
                         </td>
@@ -55,5 +48,5 @@
             </table>
         </div>
     </div>
-</div> 
+</div>
 @endsection

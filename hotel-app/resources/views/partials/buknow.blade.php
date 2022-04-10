@@ -23,12 +23,12 @@
 
                 <div class="row g-3 align-items-center">
                     <div class="mb-3">
-                        <label for="nama_pemesan" class="form-label text-brown">Nama Pemesan</label>
+                        <label for="nama_pemesan" class="form-label text-brown">Customer Name</label>
                         <input type="text" class="form-control rounded-10 form-brown" id="nama_pemesan">
                     </div>
     
                     <div class="mb-3">
-                        <label for="no_telp" class="form-label text-brown">Nomor Telepon</label>
+                        <label for="no_telp" class="form-label text-brown">Phone Number</label>
                         <input type="number" class="form-control rounded-10 form-brown" id="no_telp">
                     </div>
                 </div>    
@@ -45,7 +45,7 @@
                 </div>
         </form>
 
-        <button style="border-radius: 5px;" type="button" class="btn btn-primary float-end mt-4 mb-3 p5" data-bs-toggle="modal" data-bs-target="#bookModal">Book Now</button>
+        <a href="/order" style="border-radius: 5px;" type="button" class="btn btn-primary float-end mt-4 mb-3 p5">Book Now</a>
     </div>
 </div>
 <div class="card col card-rooms container shadow float-end" style="margin-top: 100px; width:650px; margin-right: 70px; margin-bottom:100px">
@@ -109,23 +109,5 @@
 
 </div>
 </div>
-
-<div class="modal fade" id="bookModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Confirm booking</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body text-center">
-            Are you sure complete your order?
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-          <button type="button" class="btn btn-primary">Confirm</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
 @endsection

@@ -29,6 +29,10 @@ Route::get('/buknow', function () {
     return view('partials.buknow');    
 });
 
+Route::get('/order', function () {
+    return view('order');    
+});
+
 Route::get('/admin', function () {
     return view('admin.dashboard_admin');    
 });
@@ -41,8 +45,36 @@ Route::get('/detailrooms', function () {
     return view('admin.detailrooms');    
 });
 
-Route::get('/facility_admin', function () {
-    return view('admin.facility_admin');    
+Route::get('/facilities_admin', function () {
+    return view('admin.facilities_admin');    
+});
+
+Route::get('/receptionist', function () {
+    return view('receptionist.dashboard');    
+});
+
+Route::get('/order_recep', function () {
+    return view('receptionist.order_recep');    
+});
+
+Route::get('/order_ongoing', function () {
+    return view('receptionist.order_ongoing');    
+});
+
+Route::get('/order_history', function () {
+    return view('receptionist.order_history');    
+});
+
+Route::get('/addrooms', function () {
+    return view('admin.addrooms');    
+});
+
+Route::get('/adddetails', function () {
+    return view('admin.adddetails');    
+});
+
+Route::get('/addfacilities', function () {
+    return view('admin.addfacilities');    
 });
 
 

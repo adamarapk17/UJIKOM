@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top"style=background-blue-800>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-blue-800;">
     <div class="container">
       <a class="navbar-brand text-white" href="#">Di's Hotel</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,7 +14,7 @@
             <a class="nav-link active text-white" href="/#rooms">Rooms</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-white" href="/#facility">Facility</a>
+            <a class="nav-link active text-white" href="/#facilities">Facilities</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active text-white" href="/#about">About Us</a>
