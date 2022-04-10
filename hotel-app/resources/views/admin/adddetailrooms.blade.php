@@ -1,4 +1,4 @@
 @extends('layouts.main_admin')
-@section('adddetails')
+@section('adddetailrooms')
     
 @endsection

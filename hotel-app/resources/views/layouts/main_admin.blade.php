@@ -15,7 +15,7 @@
     @yield('rooms_admin')
     @yield('facilities_admin')
     @yield('detailrooms')
-    @yield('adddetails')
+    @yield('adddetailrooms')
     @yield('addrooms')
     @yield('addfacilities')
 

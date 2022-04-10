@@ -15,7 +15,7 @@
                         aria-describedby="button-addon2">
                     <button class="btn btn-putih me-1" type="button" id="button-addon2">Search</button>
                 </div>
-                <a  href="/adddetails" class="btn btn-putih" id="button-addon2">+ add data</a>
+                <a  href="/adddetailrooms" class="btn btn-putih" id="button-addon2">+ add data</a>
             </div>
         </div>
     </form>

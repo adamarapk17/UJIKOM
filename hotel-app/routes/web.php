@@ -69,8 +69,8 @@ Route::get('/addrooms', function () {
     return view('admin.addrooms');    
 });
 
-Route::get('/adddetails', function () {
-    return view('admin.adddetails');    
+Route::get('/adddetailrooms', function () {
+    return view('admin.adddetailrooms');    
 });
 
 Route::get('/addfacilities', function () {
